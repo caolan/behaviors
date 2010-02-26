@@ -1,0 +1,3 @@
+[submodule "deps/testrunner"]
+	path = deps/testrunner
+	url = git://github.com/caolan/testrunner.git
