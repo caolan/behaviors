@@ -39,6 +39,18 @@ some useful information on whether an expected property was the wrong type
 or missing.
 
 
+Supported Export Types
+----------------------
+
+* Boolean
+* Function
+* Number
+* Object
+* String
+* null
+* undefined
+
+
 Tests
 -----
 
