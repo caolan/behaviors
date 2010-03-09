@@ -7,7 +7,7 @@ require.paths.push(path.join(process.cwd(), 'deps'));
 require.paths.push(path.join(process.cwd(), 'lib'));
 
 try {
-    var testrunner = require('testrunner');
+    var testrunner = require('nodeunit').testrunner;
 }
 catch (e){
     var sys = require('sys');
@@ -20,4 +20,4 @@ catch (e){
     process.exit();
 }
 
-testrunner.runTests(['test']);
+testrunner.run(['test']);
